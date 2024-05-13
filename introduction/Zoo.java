@@ -10,7 +10,8 @@ public class Zoo {
     public static void main(String[] args) {
         System.out.println("Hello World");
 
-        /*
+        /**
+         * @author The Code Alchemist
          * These arguments are passed from {@link TestClass}
          * If this class is run directly, these arguments will not be shown.
          * Based on page 9

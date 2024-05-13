@@ -14,7 +14,8 @@ public class TestClass {
         // Add any print statements here
         System.out.println("Hello World!");
 
-        /*
+        /**
+         * @author The Code Alchemist
          * These arguments are passed to the main method of {@link Zoo}
          * Based on calling the main method from another class from page 9
          */
