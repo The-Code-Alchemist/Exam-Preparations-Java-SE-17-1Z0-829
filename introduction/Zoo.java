@@ -14,7 +14,7 @@ public class Zoo {
          * @author The Code Alchemist
          * These arguments are passed from {@link TestClass}
          * If this class is run directly, these arguments will not be shown.
-         * Based on page 9
+         * Based on pages 9 and 10
          */
         if(args.length > 0) {
             System.out.println(args.length);

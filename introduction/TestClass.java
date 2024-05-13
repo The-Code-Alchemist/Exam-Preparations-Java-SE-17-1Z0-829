@@ -17,7 +17,7 @@ public class TestClass {
         /**
          * @author The Code Alchemist
          * These arguments are passed to the main method of {@link Zoo}
-         * Based on calling the main method from another class from page 9
+         * Based on calling the main method from another class from page 9 and arguments from page 10
          */
         String[] arguments = {"Hi", "Hello", "Howdy"};
         Zoo.main(arguments);
