@@ -9,5 +9,16 @@ package introduction;
 public class Zoo {
     public static void main(String[] args) {
         System.out.println("Hello World");
+
+        /*
+         * These arguments are passed from {@link TestClass}
+         * If this class is run directly, these arguments will not be shown.
+         * Based on page 9
+         */
+        if(args.length > 0) {
+            System.out.println(args.length);
+            System.out.println(args[0] + " " + args[1]);
+            System.out.println(args[2]);
+        }
     }
 }
