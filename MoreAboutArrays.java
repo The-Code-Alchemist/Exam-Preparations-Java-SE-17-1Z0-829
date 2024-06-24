@@ -1,6 +1,6 @@
 /**
  * @author The Code Alchemist
- * Chapters 4: Core APIs, page 179, 180, 181, 182, 183
+ * Chapters 4: Core APIs, page 179, 180, 181, 182
  */
 public class MoreAboutArrays {
     public static void main(String[] args) {
