@@ -47,7 +47,7 @@ public class ArrayExamples {
 
         int frog = 15;
         BAD_IDEA: if (frog > 10)
-        EVEN_WORSE_IDE: {
+        EVEN_WORSE_IDEA: {
             frog ++;
         }
     }
