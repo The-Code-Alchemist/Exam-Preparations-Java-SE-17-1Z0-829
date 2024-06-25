@@ -10,7 +10,7 @@ public class ArraysAndLoops {
             System.out.print(numbers[i] = i + 5);
         }   System.out.println("");
 
-        var moreNumbers = new int[11];
+        var moreNumbers = new int[10];
         for(int j = 0; j < moreNumbers.length; j++) {
             // this one only prints 5
             System.out.print(moreNumbers[j] += 5);
