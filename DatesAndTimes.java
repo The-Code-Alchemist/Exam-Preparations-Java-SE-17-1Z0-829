@@ -10,6 +10,7 @@ import java.util.Date;
 /**
  * @author The Code Alchemist
  * Chapters 4: Core APIs, pages 192, 193, 194, 195, 196, 197
+ * Dates and Times
  */
 public class DatesAndTimes {
     public static void main(String[] args) {
@@ -57,6 +58,7 @@ public class DatesAndTimes {
         var zoned3 = ZonedDateTime.of(dateTime1, zone);
         System.out.println(zoned3);     // date time is passed
 
+        // Invalid day throws an Exception
         var d = LocalDate.of(2022, Month.JANUARY, 32);
         System.out.println(d);
     }
