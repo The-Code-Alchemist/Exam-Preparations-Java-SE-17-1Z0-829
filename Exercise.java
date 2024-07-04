@@ -1,7 +1,7 @@
 /**
  * @author The Code Alchemist
  * Chapters 5: Methods, page 222, 223, 224, 225, 226
- * Demonstrating some methods
+ * Demonstrating some method examples
  */
 public class Exercise {
     // page 222
