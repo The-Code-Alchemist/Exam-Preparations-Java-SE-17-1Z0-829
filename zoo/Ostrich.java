@@ -1,6 +1,6 @@
 /**
  * @author The Code Alchemist
- * Chapter 5: Methods, page 260
+ * Chapter 5: Methods, page 261-262
  * overloading primitive types
  */
 package zoo;
