@@ -1,9 +1,16 @@
 package zoo;
 /**
  * @author The Code Alchemist
- * Chapter 5: Methods, page 247
+ * Chapter 5: Methods, page 247, 293, 294
  */
-public class Gorilla {
+public class Gorilla extends Animal {
+    public Gorilla(int age) {
+        super(age, "Gorilla");     // calls the first Animal constructor
+    }
+    public Gorilla() {
+        super(5);                   // calls the second Animal constructor
+    }
+
     public static int count;
     public static void addGorilla() { count++; }
     public void babyGorilla() { count++; }
