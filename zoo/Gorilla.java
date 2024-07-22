@@ -1,7 +1,7 @@
 package zoo;
 /**
  * @author The Code Alchemist
- * Chapter 5: Methods, page 247, 293, 294
+ * Chapters 5 and 6: Methods and Class Design, page 247, 293, 294
  */
 public class Gorilla extends Animal {
     public Gorilla(int age) {
