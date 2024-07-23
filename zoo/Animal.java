@@ -1,11 +1,15 @@
 /**
  * @author The Code Alchemist
- * Chapter 6: Class Design, page 281, 293, 294
- * Two classes in a single .java source file
- * Only one of a source file's classes can be public. Animal.java is public and matches the source file name
+ * Chapter 6: Class Design, page 281, 293, 294, 297
+ * Initializing Objects
  */
 package zoo;
 public class Animal {
+
+    static {
+        System.out.print("A"); // executed first as a superclass
+    }
+
     private int age;
     protected String name;
 
