@@ -1,12 +1,26 @@
 /**
  * @author The Code Alchemist
- * Chapter 5: Methods, page 255
- * pass-by-value example
+ * Chapter 5 and 6: Methods and Class Design, page 255, 301
+ * pass-by-value and initalizing instance examples
  */
 package zoo;
 
 public class ZooTickets {
-    public static void main(String[] args) {
+    private String name = "BestZoo";
+    { System.out.print(name + "-"); }
+    private static int COUNT = 0;
+    static  { System.out.print(COUNT + "-"); }
+    static  { COUNT += 10; System.out.print(COUNT + "-");}
+
+    public ZooTickets() {
+        System.out.print("z");
+    }
+
+    public static void main(String... patrons) {
+        new ZooTickets();
+
+
+        // previous fragment
         int tickets = 2;                        // tickets = 2
         String guests = "abc";                  // guests  = abc
         addTickets(tickets);                    // tickets = 2
