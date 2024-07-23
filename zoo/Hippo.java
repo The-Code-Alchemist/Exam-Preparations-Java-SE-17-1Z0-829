@@ -15,5 +15,5 @@ public class Hippo extends Animal {
         new Hippo(2);
         new Hippo(3);
     }
-    static { System.out.print("B"); }
+    static { System.out.print("B"); }   // executed second as a subclass
 }
