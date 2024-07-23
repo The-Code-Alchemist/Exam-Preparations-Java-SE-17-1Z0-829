@@ -33,11 +33,13 @@ public class Chimpanzee extends Ape {
 
 class Primate {
     public Primate() {
+        super();    // inserted implicitly
         System.out.print("Primate-");
     }
 }
 class Ape extends Primate {
     public Ape(int fur) {
+        super();    // inserted implicitly
         System.out.print("Ape1-");
     }
     public Ape() {
