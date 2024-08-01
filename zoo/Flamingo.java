@@ -7,7 +7,7 @@ package zoo;
 public class Flamingo {
     private String color = null;
     public void setColor(String color) {
-        this.color = color;     // when replaced with color = color; line 15 will print null
+        this.color = color;             // when replaced with color = color; line 15 will print null
     }
     public static void main(String[] args) {
         var f = new Flamingo();
