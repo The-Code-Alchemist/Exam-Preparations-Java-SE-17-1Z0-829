@@ -8,6 +8,7 @@ package zoo;
 public class Beetle extends Insect {
     protected int numberOfLegs = 6;
     short age = 3;
+    String label = "subclass " + super.label;
     public void printData() {
         System.out.println(this.label);
         System.out.println(super.label);
@@ -17,6 +18,6 @@ public class Beetle extends Insect {
         System.out.println(super.numberOfLegs);
     }
     public static void main(String[] args) {
-        new Beetle().printData();
+        new Beetle().printData();   // the Beetle object calls printData as it is instantiated
     }
 }
