@@ -17,9 +17,9 @@ public class Crocodile extends Reptile {
     }
     public static void main(String[] args) {
         var croc = new Crocodile();
-        System.out.println(croc);
-        System.out.println(croc.getSpeed());        // 20
-        System.out.println(croc.getThisSpeed());    // 20
+        System.out.println(croc);                   // just the reference itself
+        System.out.println(croc.getSpeed());        // 20 field
+        System.out.println(croc.getThisSpeed());    // 20 current object
         System.out.println(croc.getSuperSpeed());   // 10
     }
 }
