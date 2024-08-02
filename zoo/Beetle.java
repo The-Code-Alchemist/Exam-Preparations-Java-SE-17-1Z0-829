@@ -4,10 +4,6 @@
  * this and super example of variables used and their scope
  */
 package zoo;
-class Insect {
-    protected int numberOfLegs = 4;
-    String label = "buggy";
-}
 
 public class Beetle extends Insect {
     protected int numberOfLegs = 6;
