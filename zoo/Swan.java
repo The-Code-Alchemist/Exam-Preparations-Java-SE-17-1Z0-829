@@ -3,9 +3,9 @@
  * from Chapter 1: Building Blocks, page 24
  * Object instantiation
  */
+package zoo;
 public class Swan {
     int numberEggs;                             // instance variable
-
     public static void main(String[] args) {
         Swan mother = new Swan();
         mother.numberEggs = 1;                  // set variable

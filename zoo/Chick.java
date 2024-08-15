@@ -1,6 +1,12 @@
+/**
+ * @author The Code Alchemist
+ * from Chapter 1: Building Blocks, pages 23, 25 and 26
+ * order of initialization
+ */
+package zoo;
 public class Chick {
     private String name = "Fluffy";
-    { System.out.println("setting field"); }
+    { System.out.println("setting field"); } // initialization block executed before constructor
     public Chick() {
         name = "Tiny";
         System.out.println("setting constructor");
@@ -9,10 +15,4 @@ public class Chick {
         Chick chick = new Chick();
         System.out.println(chick.name);
     }
-
 }
-/**
- * @author The Code Alchemist
- * from Chapter 1: Building Blocks, pages 25 and 26
- * order of initialization
- */

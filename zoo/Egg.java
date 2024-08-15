@@ -1,3 +1,9 @@
+/**
+ * @author The Code Alchemist
+ * from Chapter 1: Building Blocks, page 26
+ * order of initialization
+ */
+package zoo;
 public class Egg {
     public Egg() {
         number = 5;
@@ -8,9 +14,5 @@ public class Egg {
     }
 
     private int number = 3;
-    { number = 4; }}
-/**
- * @author The Code Alchemist
- * from Chapter 1: Building Blocks, page 26
- * order of initialization
- */
+    { number = 4; }
+}

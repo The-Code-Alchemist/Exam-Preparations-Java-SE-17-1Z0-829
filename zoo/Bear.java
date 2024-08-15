@@ -6,6 +6,6 @@
  * the public class does not have to be placed in any particular order
  */
 package zoo;
-class Bird {}
+class AnotherBird {}
 class Fish {}
 public class Bear {}
