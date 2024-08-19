@@ -4,7 +4,7 @@
  * Class variables stay in scope until the program ends
  * Instance variables stay in scope as long as the objects exist (until they are garbage collected)
  */
-package introduction;
+package building_blocks;
 public class Mouse {
     final static int MAX_LENGTH = 5;    // class variable
     int length;                         // instance variable

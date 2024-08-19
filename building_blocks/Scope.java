@@ -5,7 +5,7 @@
  * Object "a" becomes eligible for gabage collection once the reference one point to object "b"
  * Object "b" exists until the main method is done executing
  */
-package introduction;
+package building_blocks;
 public class Scope {
     public static void main(String[] args) {
         String one, two;

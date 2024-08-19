@@ -1,11 +1,9 @@
-package introduction;
-
-import java.util.logging.Logger;
-
 /**
  * @author The Code Alchemist
  * from the Introduction
  */
+package introduction;
+import java.util.logging.Logger;
 public class FinalCannotBeReassigned {
 
     public static void main (String[] args) {

@@ -4,7 +4,10 @@
  *  Compile the source file Zoo.java from the root directory of the project             javac introduction/Zoo.java
  *  Run the newly compiled bytecode Zoo.class from the root directory of the project    java introduction/Zoo
  */
-package introduction;
+package building_blocks;
+
+import introduction.TestClass;
+
 public class Zoo {
     public static void main(String[] args) {
         System.out.println("Hello World");

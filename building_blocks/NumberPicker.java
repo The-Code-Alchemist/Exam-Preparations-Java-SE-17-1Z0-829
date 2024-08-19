@@ -6,7 +6,7 @@
  * Everything within the java.lang package is imported automatically
  * The System class is imported explicitly on line 18
  */
-package introduction;
+package building_blocks;
 
 import java.util.Random;
 import java.lang.*;
