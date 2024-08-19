@@ -3,6 +3,7 @@
  * Chapter 5: Methods, page 249
  * static initializer example
  */
+package methods;
 public class StaticInitializerExample {
     private static final int NUM_SECONDS_PER_MINUTE;
     private static final int NUM_MINUTES_PER_HOUR;

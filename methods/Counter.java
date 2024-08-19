@@ -2,6 +2,7 @@
  * @author The Code Alchemist
  * Chapter 5: Methods, page 248
  */
+package methods;
 public class Counter {
     private static int count;   // default value is 0 if not initialized
     public Counter() // default constructor
@@ -16,6 +17,5 @@ public class Counter {
         System.out.println(count);
         Counter counter3 = new Counter();
         System.out.println(count);
-
     }
 }

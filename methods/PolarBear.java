@@ -3,6 +3,7 @@
  * from Chapter 5: Methods, page 232, 234
  * final and vararg example
  */
+package methods;
 public class PolarBear {
     final int age = 10;
     final int fishEaten;

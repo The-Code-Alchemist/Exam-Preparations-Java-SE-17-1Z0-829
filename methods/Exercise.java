@@ -3,6 +3,7 @@
  * Chapters 5: Methods, page 222, 223, 224, 225, 226
  * Demonstrating some method examples
  */
+package methods;
 public class Exercise {
     // page 222
     public void skip1() {}

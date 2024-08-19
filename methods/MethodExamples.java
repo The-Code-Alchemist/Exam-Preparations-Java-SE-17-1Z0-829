@@ -2,6 +2,7 @@
  * @author The Code Alchemist
  * from Chapter 5: Methods, page 227, 228
  */
+package methods;
 public class MethodExamples {
 
     // a method can be  by changing the order of the parameters

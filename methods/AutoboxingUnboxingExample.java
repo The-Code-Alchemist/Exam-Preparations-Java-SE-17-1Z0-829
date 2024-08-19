@@ -3,6 +3,7 @@
  * Chapter 5: Methods, page 256
  * Autoboxing and Unboxing
  */
+package methods;
 public class AutoboxingUnboxingExample {
     public static void main(String[] args) {
         int primitiveInteger = 5;

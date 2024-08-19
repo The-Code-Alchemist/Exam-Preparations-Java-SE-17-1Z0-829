@@ -3,6 +3,7 @@
  * Chapter 5: Methods, page 249
  * static final CONSTANT example
  */
+package methods;
 public class ZooPen {
     private static final int NUM_BUCKETS = 45;
 

@@ -3,6 +3,7 @@
  * Chapter 5: Methods, page 253
  * pass-by-value example
  */
+package methods;
 public class PassByValueExample {
     public static void main(String[] args) {
         int num = 4;
