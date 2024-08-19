@@ -1,3 +1,5 @@
+package making_decisions;
+
 /**
  * @author The Code Alchemist
  * Chapters 4: Core APIs, page 183 edge case

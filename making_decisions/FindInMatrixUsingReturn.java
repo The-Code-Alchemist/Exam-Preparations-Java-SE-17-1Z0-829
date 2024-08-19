@@ -1,3 +1,5 @@
+package making_decisions;
+
 /**
  * @author The Code Alchemist
  * Chapter 3: Making Decisions, page 135, 136

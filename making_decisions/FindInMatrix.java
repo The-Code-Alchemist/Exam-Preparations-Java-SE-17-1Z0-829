@@ -3,6 +3,7 @@
  * Chapter 3: Making Decisions, page 133, 134
  * Two-dimensional arrays combined with a labeled for loop
  */
+package making_decisions;
 public class FindInMatrix {
     public static void main(String[] args) {
         int[][] list = {{1, 13}, {5, 2}, {2, 2}};

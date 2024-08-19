@@ -4,6 +4,7 @@
  * A break statement is not required since Java 14. Have a look at code examples.
  * A default statement is required to cover all possible values.
  */
+package making_decisions;
 public class SwitchExample {
     public static void main(String[] args) {
         String name = """
@@ -70,5 +71,4 @@ public class SwitchExample {
         };
         System.out.println(name);
     }
-
 }

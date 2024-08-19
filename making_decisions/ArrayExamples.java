@@ -1,3 +1,5 @@
+package making_decisions;
+
 /**
  * @author The Code Alchemist
  * From Java SE 17 Fundamentals, Looping and Arrays
