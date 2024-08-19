@@ -1,13 +1,15 @@
-import java.time.Duration;
-import java.time.LocalDate;
-import java.time.LocalTime;
-import java.time.temporal.ChronoUnit;
-
 /**
  * @author The Code Alchemist
  * Chapters 4: Core APIs, 202, 203
  * Durations based on Dates and Times
  */
+package coreAPIs;
+
+import java.time.Duration;
+import java.time.LocalDate;
+import java.time.LocalTime;
+import java.time.temporal.ChronoUnit;
+
 public class DurationExample {
     public static void main(String[] args) {
         var daily = Duration.ofDays(1);                                 // PT24H
