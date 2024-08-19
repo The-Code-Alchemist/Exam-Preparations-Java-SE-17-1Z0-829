@@ -3,6 +3,7 @@
  * from Chapter 2: Compound dAssignment Operators, pages 81, 82
  * Casting down
  */
+package operators;
 public class CompoundAssignments {
     public static void main(String[] args) {
         int camel = 2, giraffe = 3;

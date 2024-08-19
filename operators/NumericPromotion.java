@@ -3,6 +3,7 @@
  * from Chapter 2: Operators, page 76
  * Numeric promotion examples
  */
+package operators;
 public class NumericPromotion {
     public static void main(String[] args) {
         int a = 1;

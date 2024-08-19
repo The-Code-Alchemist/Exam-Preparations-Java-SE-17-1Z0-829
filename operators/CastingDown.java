@@ -3,13 +3,14 @@
  * from Chapter 2: Operators, pages 78, 79, 80, 81
  * Casting down
  */
+package operators;
 public class CastingDown {
     public static void main(String[] args) {
         int fur = (int) 5;                  // cast unnecessary, fur is already an int
         System.out.println(fur);
         int hair = (short) 2;
         System.out.println(hair);
-        String type = (String) "Bird";      // cast unnecessary, type is already a String
+        String type = (String) "zoo.Bird";      // cast unnecessary, type is already a String
         System.out.println(type);
         short tail = (short) (4 + 10);      // the sum of (4 + 10) is cast into a short
         System.out.println(tail);
