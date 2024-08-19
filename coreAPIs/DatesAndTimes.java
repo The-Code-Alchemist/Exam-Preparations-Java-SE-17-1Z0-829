@@ -1,3 +1,10 @@
+/**
+ * @author The Code Alchemist
+ * Chapters 4: Core APIs, pages 192, 193, 194, 195, 196, 197
+ * Dates and Times
+ */
+package coreAPIs;
+
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
@@ -6,12 +13,6 @@ import java.time.ZoneId;
 import java.time.ZonedDateTime;
 
 import java.util.Date;
-
-/**
- * @author The Code Alchemist
- * Chapters 4: Core APIs, pages 192, 193, 194, 195, 196, 197
- * Dates and Times
- */
 public class DatesAndTimes {
     public static void main(String[] args) {
         // Shows the date. Will not be on the 1Z0-829 Java SE 17 exam.

@@ -3,6 +3,7 @@
  * from Chapter 4: Core APIs, page 157, 158, 159, 160, 161, 162, 163, 166, 167, 171, 172, 173, 174, 175, 176,
  * += compounds the String concatenation
  */
+package coreAPIs;
 public class StringConcatenationAndMethodExamples {
     public static void main(String[] args) {
         System.out.println(1 + 2);          // 3
@@ -213,6 +214,5 @@ public class StringConcatenationAndMethodExamples {
         System.out.println(first == second.intern());                   // true, reference is the same
         System.out.println(first == third);                             // false, the new String creates a new reference
         System.out.println(first == third.intern());                    // true, point to the same String "rat1"
-
     }
 }

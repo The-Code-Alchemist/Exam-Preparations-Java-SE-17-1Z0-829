@@ -1,13 +1,15 @@
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.LocalTime;
-import java.time.Month;
-
 /**
  * @author The Code Alchemist
  * Chapters 4: Core APIs, 197, 198
  * Manipulating Dates and Times
  */
+package coreAPIs;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.time.Month;
+
 public class DateAndTimeManipulation {
     public static void main(String[] args) {
         var date = LocalDate.of(2022, Month.JANUARY, 20);
@@ -40,6 +42,5 @@ public class DateAndTimeManipulation {
         var anotherDateTime = LocalDateTime.of(date, time);
         anotherDateTime.minusDays(1).minusHours(10).minusSeconds(30);
         System.out.println();
-
     }
 }

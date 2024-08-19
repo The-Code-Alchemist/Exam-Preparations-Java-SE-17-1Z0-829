@@ -1,11 +1,12 @@
-import java.time.LocalDate;
-import java.time.Month;
-
 /**
  * @author The Code Alchemist
  * Chapters 4: Core APIs, 200
  * Periods based on Dates and Times
  */
+package coreAPIs;
+
+import java.time.LocalDate;
+import java.time.Month;
 public class DateAndTimeWithoutPeriodExample {
     public static void main(String[] args) {
         var start = LocalDate.of(2022, Month.JANUARY, 1);

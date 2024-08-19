@@ -1,3 +1,5 @@
+package coreAPIs;
+
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
@@ -43,7 +45,7 @@ public class PeriodExample {
         var wrong = Period.ofYears(1).ofWeeks(1);
         System.out.println(wrong);      // P7D
 
-        // var wrong can be rewritten as follows
+        // building_blocks.var wrong can be rewritten as follows
         var wrongAgain = Period.ofYears(1);
         wrongAgain = Period.ofWeeks(1);
         System.out.println(wrongAgain); // P7D

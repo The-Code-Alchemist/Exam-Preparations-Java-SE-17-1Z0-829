@@ -1,14 +1,17 @@
+/**
+ * @author The Code Alchemist
+ * Chapters 4: Core APIs, 206, 207
+ * Daylight saving examples
+ */
+
+package coreAPIs;
+
 import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.Month;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
 
-/**
- * @author The Code Alchemist
- * Chapters 4: Core APIs, 206, 207
- * Daylight saving examples
- */
 public class DaylightSavingTime {
     public static void main(String[] args) throws Exception {
         var date = LocalDate.of(2022, Month.MARCH, 13);

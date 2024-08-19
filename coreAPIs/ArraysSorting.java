@@ -1,9 +1,9 @@
-import java.util.Arrays;
-
 /**
  * @author The Code Alchemist
  * Chapters 4: Core APIs, pages 183, 184
  */
+package coreAPIs;
+import java.util.Arrays;
 public class ArraysSorting {
     public static void main(String[] args) {
         int[] numbers = {6, 9, 1 };

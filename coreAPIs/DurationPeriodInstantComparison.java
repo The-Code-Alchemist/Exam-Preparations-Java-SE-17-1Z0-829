@@ -1,3 +1,9 @@
+/**
+ * @author The Code Alchemist
+ * Chapters 4: Core APIs, 203, 204, 205
+ */
+package coreAPIs;
+
 import java.time.Duration;
 import java.time.Instant;
 import java.time.LocalDate;
@@ -6,11 +12,6 @@ import java.time.LocalTime;
 import java.time.Period;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
-
-/**
- * @author The Code Alchemist
- * Chapters 4: Core APIs, 203, 204, 205
- */
 public class DurationPeriodInstantComparison {
     public static void main(String[] args) {
         var date = LocalDate.of(2022, 1, 20);

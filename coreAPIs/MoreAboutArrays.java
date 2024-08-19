@@ -2,6 +2,7 @@
  * @author The Code Alchemist
  * Chapters 4: Core APIs, page 179, 180, 181, 182
  */
+package coreAPIs;
 public class MoreAboutArrays {
     public static void main(String[] args) {
         // the default value for the elements in this int array are set to 0

@@ -4,7 +4,8 @@
  * min(a, b) and max(a, b) exists for int, long, float and double
  * round(a)
  */
-public class MatApiExamples {
+package coreAPIs;
+public class MathApiExamples {
     public static void main(String[] args) {
         int first = Math.max(3, 7);
         System.out.println(first);
