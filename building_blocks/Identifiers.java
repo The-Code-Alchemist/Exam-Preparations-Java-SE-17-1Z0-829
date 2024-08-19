@@ -5,6 +5,7 @@
  * Legal identifiers are in the main method
  * Illegal identifiers are outside the main method
  */
+package building_blocks;
 public class Identifiers {
 
 //    int 3DPointClass;       // identifiers can't begin with a number

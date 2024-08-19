@@ -1,3 +1,11 @@
+/**
+ * @author The Code Alchemist
+ * Chapters 1: Building Blocks
+ * multiple variables
+ */
+
+package building_blocks;
+
 public class DeclaringMultipleVariables {
     boolean b1, b2;
     String s1 = "1", s2;

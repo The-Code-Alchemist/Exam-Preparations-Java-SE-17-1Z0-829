@@ -4,6 +4,7 @@
  * multiline String example, also known as a text block
  * They make multiline STrings more readable and less prone to error
  */
+package building_blocks;
 public class MultlineString {
     public static void main(String[] args) {
         String eyeTest = """
