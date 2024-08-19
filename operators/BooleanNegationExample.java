@@ -1,8 +1,9 @@
 /**
  * @author The Code Alchemist
  * from Chapter 2: Operators, page 70
- * Negation and bitwise complement
+ * Negation and bitwise complement operator examples
  */
+package operators;
 public class BooleanNegationExample {
     public static void main(String[] args) {
         boolean isAnimalAsleep = false;

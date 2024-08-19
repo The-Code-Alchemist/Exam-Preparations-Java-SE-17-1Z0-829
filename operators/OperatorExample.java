@@ -1,7 +1,9 @@
 /**
  * @author The Code Alchemist
  * from Chapter 2: Operators, page 67
+ * Operator precedence example
  */
+package operators;
 public class OperatorExample {
     public static void main(String[] args) {
         int cookies = 4;

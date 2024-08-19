@@ -3,6 +3,7 @@
  * from Chapter 2: Operators, page 71, 72, 73, 74, 75
  * Operator examples increment, decrement and binary operators
  */
+package operators;
 public class VariousOperatorExamples {
     public static void main(String[] args) {
 
