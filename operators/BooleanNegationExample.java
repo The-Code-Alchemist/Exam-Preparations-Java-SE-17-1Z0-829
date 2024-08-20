@@ -7,9 +7,9 @@ package operators;
 public class BooleanNegationExample {
     public static void main(String[] args) {
         boolean isAnimalAsleep = false;
-        System.out.println(isAnimalAsleep);
+        System.out.println(isAnimalAsleep);         // false
         isAnimalAsleep = !isAnimalAsleep;
-        System.out.println(isAnimalAsleep);
+        System.out.println(isAnimalAsleep);         // true
 
         int value = 3;                              // 0011
         System.out.println(value);
