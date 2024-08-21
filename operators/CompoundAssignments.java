@@ -1,6 +1,6 @@
 /**
  * @author The Code Alchemist
- * from Chapter 2: Compound dAssignment Operators, pages 81, 82
+ * from Chapter 2: Compound Assignment Operators, pages 81, 82, 86
  * Compound assignment examples
  */
 package operators;
