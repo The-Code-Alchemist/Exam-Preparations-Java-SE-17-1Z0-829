@@ -1,7 +1,7 @@
 /**
  * @author The Code Alchemist
  * from Chapter 2: Operators, pages 78, 79, 80, 81
- * Casting down
+ * Casting down examples
  */
 package operators;
 public class CastingDown {
@@ -10,7 +10,7 @@ public class CastingDown {
         System.out.println(fur);
         int hair = (short) 2;
         System.out.println(hair);
-        String type = (String) "zoo.Bird";      // cast unnecessary, type is already a String
+        String type = (String) "zoo.Bird";  // cast unnecessary, type is already a String
         System.out.println(type);
         short tail = (short) (4 + 10);      // the sum of (4 + 10) is cast into a short
         System.out.println(tail);
@@ -18,7 +18,7 @@ public class CastingDown {
         System.out.println(anotherTail);
 
         // Either cast will work. Omitting the cast, however results in a compiler error
-        float egg = (float) 2.0 / 9;        // casts the division 2.0/9 to float
+        float egg = (float) 2.0 / 9;        // casts the division 2.0/9 from double to float
         System.out.println(egg);
         float anotherEgg = (float) 2.0 / 9; // casts only 2.0 to float
         System.out.println(anotherEgg);

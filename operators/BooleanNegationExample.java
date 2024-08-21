@@ -31,9 +31,5 @@ public class BooleanNegationExample {
         System.out.println(zooTemperature);         // -1.21
         zooTemperature = -(-zooTemperature);
         System.out.println(zooTemperature);         // -1.21
-
-
-
-
     }
 }

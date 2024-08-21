@@ -8,17 +8,17 @@ public class NumericPromotion {
     public static void main(String[] args) {
         int a = 1;
         long b = 33;
-        var c = a * b;      // c gets promoted to the data type long assigned to it through inference
+        var c = a * b;              // a is first promoted to the data type long and c is assigned a long value
         System.out.println(c);
 
         double d = 39.21;
-        float e = 2.1F;     // don't forget the F at the end or you'll get
-        var f = d + e;      // f gets promoted to the data type double assigned to it through inference
-        System.out.println(f);
+        float e = 2.1F;             // don't forget the F at the end, or you'll get a compiler error
+        var f = d + e;              // f gets promoted to the data type double assigned to it through inference
+        System.out.println(f);      // not 41.31 like a calculator does it
 
         short g = 10;
         short h = 3;
-        var i = g * h;      // i gets promoted to the data type int assigned to it through inference
+        var i = g * h;  // i gets promoted to the data type int assigned to it through inference, because of arithmetic
         System.out.println(i);
 
         short w = 14;
