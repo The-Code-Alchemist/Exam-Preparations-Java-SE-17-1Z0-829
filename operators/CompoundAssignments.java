@@ -27,7 +27,7 @@ public class CompoundAssignments {
         System.out.println(coyote);
         System.out.println(wolf);
 
-        // all three reference point to the same object
+        // Only one object is created: all three reference point to this object
         Integer zooTime = Integer.valueOf(9);
         Number num = zooTime;
         Object obj = zooTime;
