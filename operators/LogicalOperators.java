@@ -1,6 +1,6 @@
 /**
  * @author The Code Alchemist
- * from Chapter 2: Compound Assignment Operators, pages 88
+ * from Chapter 2: Operators, pages 88
  * Logical operator examples with short-circuit (inclusive) operators
  */
 package operators;

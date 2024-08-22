@@ -1,6 +1,6 @@
 /**
  * @author The Code Alchemist
- * from Chapter 2: Compound Assignment Operators, page 85
+ * from Chapter 2: Operators, page 85
  * Comparison Examples
 */
 package operators;
