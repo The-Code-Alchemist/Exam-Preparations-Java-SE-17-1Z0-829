@@ -1,10 +1,9 @@
-package making_decisions;
-
 /**
  * @author The Code Alchemist
  * Chapter 3: Making Decisions, page 135, 136
  * return statement demonstration
  */
+package making_decisions;
 public class FindInMatrixUsingReturn {
     private static int[] searchForValue(int[][] list, int v) {
         for (int i = 0; i < list.length; i++) {
