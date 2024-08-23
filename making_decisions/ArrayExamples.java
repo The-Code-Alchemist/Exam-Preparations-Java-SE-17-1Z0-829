@@ -1,10 +1,9 @@
-package making_decisions;
-
 /**
  * @author The Code Alchemist
  * From Java SE 17 Fundamentals, Looping and Arrays
  * Chapters 3: Making Decisions, page 131, 132
  */
+package making_decisions;
 public class ArrayExamples {
     public static void main(String[] args) {
 

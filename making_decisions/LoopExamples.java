@@ -1,10 +1,10 @@
 /**
  * @author The Code Alchemist
  * from Chapter 3: Making Decisions, page 121, 122, 123,124, 125, 126, 127, 128, 129
+ * loop examples: while, do-while, for, for-each
  */
 package making_decisions;
 public class LoopExamples {
-
     public static void main(String[] args) {
 
         int counter = 0;
