@@ -3,7 +3,6 @@
  * Chapters 4: Core APIs, 206, 207
  * Daylight saving examples
  */
-
 package coreAPIs;
 
 import java.time.LocalDate;
