@@ -1,9 +1,8 @@
-package making_decisions;
-
 /**
  * @author The Code Alchemist
  * Chapters 4: Core APIs, page 183 edge case
  */
+package coreAPIs;
 public class ArraysAndLoops {
     public static void main(String[] args) {
         var numbers = new int[10];
