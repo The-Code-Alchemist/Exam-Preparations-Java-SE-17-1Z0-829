@@ -8,8 +8,12 @@ public class PatternMatching {
         Integer x = 5;
         compareIntegersWithoutPatternMatching(x);
         compareIntegersWithPatternMatching(x);
+        printIntegerGreaterThan5(x);
     }
 
+    /**
+     * @param number
+     */
     public static void compareIntegersWithoutPatternMatching(Number number) {
         if(number instanceof Integer) {
             Integer data = (Integer) number; // becomes redundant with pattern matching
@@ -19,6 +23,9 @@ public class PatternMatching {
         }
     }
 
+    /**
+     * @param number
+     */
     public static void compareIntegersWithPatternMatching(Number number) {
         /**
          * By making the data parameter final, reassignment can be prevented
@@ -33,5 +40,14 @@ public class PatternMatching {
             // method compareTo() defined in java.lang.Integer
             System.out.println(data.compareTo(5));
         }
+    }
+
+    /**
+     * Pattern matching includes expressions that can be used to filter data out, such as the next example
+     * @param number
+     */
+    public static void printIntegerGreaterThan5(Number number) {
+        if(number instanceof Integer data && data.compareTo(5)>0)
+            System.out.println(":" + data);
     }
 }
