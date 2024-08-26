@@ -11,6 +11,8 @@ public class SwitchExample {
                 Fluffy""";
         System.out.println(name);
 
+        printDayOfTheWeekWithoutSwitch(7);
+
         printDayOfTheWeek(8);
 
         whatKindOfBear(-1);
@@ -18,6 +20,29 @@ public class SwitchExample {
         season(17);
 
         fishTypes();
+    }
+
+    // not recommended in practice, a switch is preferred for a long list of options
+    public static void printDayOfTheWeekWithoutSwitch(int day) {
+        if(day == 0) {
+
+        } else if(day == 1) {
+            System.out.println("Monday");
+        } else if(day == 2) {
+            System.out.println("Tuesday");
+        } else if(day == 3) {
+            System.out.println("Wednesday");
+        } else if(day == 4) {
+            System.out.println("Thursday");
+        } else if(day == 5) {
+            System.out.println("Friday");
+        } else if(day == 6) {
+            System.out.println("Saturday");
+        } else if(day == 7) {
+            System.out.println("Sunday");
+        } else {
+            System.out.println("No ide what day it is!");
+        }
     }
 
     // break statement not required with the arrow operator
