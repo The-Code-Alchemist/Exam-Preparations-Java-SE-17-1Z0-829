@@ -1,16 +1,18 @@
 /**
  * @author The Code Alchemist
- * Chapter 3: Making Decisions, page 106, 107, 108, 109
+ * Chapter 3: Making Decisions, page 106, 107, 108, 109, 110
  */
 package making_decisions;
-public class PatternMatching {
+public class PatternMatchingExample {
     public static void main(String[] args) {
         Integer x = 5;
+
         compareIntegersWithoutPatternMatching(x);
-        compareIntegersWithPatternMatching(x);
         printIntegerOrNumberGreaterThan5(x);
+        compareIntegersWithPatternMatching(x);
         printIntegerTwice(x);
         printOnlyIntegers(x);
+        printOnlyIntegersRefactored(x);
     }
 
     /**
@@ -20,13 +22,17 @@ public class PatternMatching {
         if(number instanceof Integer) {
             Integer data = (Integer) number; // becomes redundant with pattern matching
 
-            // method compareTo() defined in java.lang.Integer, but not in java.lang.Number
+            /**
+             * Number type cast to Integer, because method compareTo() is defined on java.lang.Integer
+             * but not on java.lang.Number
+             */
             System.out.println(data.compareTo(5));
         }
     }
 
     /**
      * @param number
+     * A code of avriable type is checked whether it is of a particular type and then immediately cast into that type.
      */
     private static void compareIntegersWithPatternMatching(Number number) {
         /**
@@ -39,17 +45,19 @@ public class PatternMatching {
              * because casting to an Integer class is no longer required
              */
 
-            // method compareTo() defined in java.lang.Integer
+            // method compareTo() defined in java.lang.Integer, but not in java.lang.Number
             System.out.println(data.compareTo(5));
         }
     }
 
     /**
+     * Flow Scoping: the variable is only in scope if the compiler can definitely determine its type at compile-time.
+     *
      * Pattern matching includes expressions that can be used to filter data out, such as the next example
      * so that the if statement can be executed only in specific circumstances.
      *
      * If the && were to replaced by ||, this method would not compile.
-     * If the input would not inherit Integer, the data variable would be undefined.
+     * If the input would not inherit Integer, the data (pattern) variable would be undefined.
      * The compiler cannot guarantee that data is an instance of java.lang.Integer
      * @param number
      */
@@ -77,5 +85,16 @@ public class PatternMatching {
         if(!(number instanceof Integer data))
             return;
         System.out.println(data.intValue());
+    }
+
+    /**
+     * This method inverts the if and else branches of the previous methods by inverting the boolean expression
+     * @param number
+     */
+    private static void printOnlyIntegersRefactored(Number number) {
+        if(number instanceof Integer data)
+            System.out.println(data.intValue());
+        else
+            return;
     }
 }

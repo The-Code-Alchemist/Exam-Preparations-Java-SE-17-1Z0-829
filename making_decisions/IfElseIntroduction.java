@@ -6,8 +6,8 @@
 package making_decisions;
 public class IfElseIntroduction {
     public static void main(String[] args) {
-        int hourOfDay = 9, morningGreetCount = 0;
-        if(hourOfDay < 11)  // this condition MUST have a boolean value, no ther types allowed
+        int hourOfDay = 11, morningGreetCount = 0;
+        if(hourOfDay < 11)  // this condition MUST have a boolean value, no other types allowed
             System.out.println("Good morning");
             morningGreetCount++;    // independent of the if statement above
         /** will not compile, because the previous line is not part of the if statement */
