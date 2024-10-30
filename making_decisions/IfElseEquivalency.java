@@ -1,7 +1,7 @@
 /**
  * @author The Code Alchemist
  * From Java SE 17 Fundamentals, if-else equivalency example
- * The if stattements on lines 13 and 18 are equivalent, because there is only one statement being executed
+ * if statements on lines 13 and 18 are equivalent, because there is only one statement being executed
  * braces are necessary if a block of statements is executed. Once the if condition is met of course such as line 13
  * Chapters 3: Making Decisions, page 103
  */
