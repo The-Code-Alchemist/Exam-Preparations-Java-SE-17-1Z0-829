@@ -1,6 +1,6 @@
 /**
  * @author The Code Alchemist
- * from Chapter 3: Making Decisions, page 125-126
+ * from Chapter 3: Making Decisions, page 125-127
  * for loop example
  * In addition to the boolean expression and statements as its while and do/while counterparts,
  * for loops have an initialization block and an update statement.
@@ -13,6 +13,8 @@ public class ForLoopExample {
         executeForLoopWithoutCodeBlock();
         executeForLoopWithoutCodeBlockWithinScope();
         printFiveNumbersConsequtively();
+        printFiveNumbersConsequtivelyReverse();
+        printFiveNumbersConsequtivelyReverseImproved();
     }
 
     /**
@@ -41,8 +43,8 @@ public class ForLoopExample {
      */
     private static void executeForLoopWithoutCodeBlock() {
         for(int i = 0; i < 10; i++)
-            System.out.println(i + " ");
-//        System.out.println(i + " ");    // Uncomment this line and the code will no longer compile
+            System.out.println("Value is: " + i);
+//        System.out.println(" " + i);    // Uncomment this line and the code will no longer compile
     }
 
     /**
@@ -53,12 +55,27 @@ public class ForLoopExample {
         int i;
         for(i = 0; i < 10; i++)
             System.out.println(i + " ");
-        System.out.println(i + " ");
+        // although the for loop terminates, i still get incremented to 10
+        System.out.println(i + " within scope of the method");
     }
 
     private static void printFiveNumbersConsequtively() {
         for(int i = 0; i < 5 ; i++) {
-            System.out.println(i + " "); // 0 1 2 3 4
-        }
+            System.out.print(i + " "); // 0 1 2 3 4
+        }   System.out.println("");
+    }
+
+    // var is allowed in for loops, but the previous method's output is not reversed correctly
+    private static void printFiveNumbersConsequtivelyReverse() {
+        for(var i = 5; i > 0 ; i--) {
+            System.out.print(i + " "); // 5 4 3 2 1
+        }   System.out.println("");
+    }
+
+    // The order is correctly reversed to: 4 3 2 1 0
+    private static void printFiveNumbersConsequtivelyReverseImproved() {
+        for(var i = 4; i >= 0 ; i--) {
+            System.out.print(i + " "); // 4 3 2 1 0
+        }   System.out.println("");
     }
 }
