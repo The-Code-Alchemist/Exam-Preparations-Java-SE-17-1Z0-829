@@ -1,6 +1,6 @@
 /**
  * @author The Code Alchemist
- * Chapter 3: Making Decisions, page 133, 134
+ * Chapter 3: Making Decisions, pages 133 - 134
  * Two-dimensional arrays combined with a labeled for loop
  * Labels are NOT part of the exam
  */

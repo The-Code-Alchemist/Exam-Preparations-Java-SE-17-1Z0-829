@@ -1,6 +1,6 @@
 /**
  * @author The Code Alchemist
- * Chapter 3: Making Decisions, page 135, 136
+ * Chapter 3: Making Decisions, pages 135 - 136
  * return statement demonstration
  */
 package making_decisions;
