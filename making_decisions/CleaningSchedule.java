@@ -1,7 +1,9 @@
 /**
  * @author The Code Alchemist
  * Chapter 3: Making Decisions, page 135, 136
- * Two-dimensional arrays combined with a continue statement in a for loop
+ * A continue statement in a for loop
+ *
+ * The loop will return control to the parent loop any time the first value is 'b' or if the second value is '2'
  */
 package making_decisions;
 public class CleaningSchedule {
@@ -11,7 +13,7 @@ public class CleaningSchedule {
                 if(stables == 'b' || leopard == '2') {
                     continue CLEANING;
                 }
-                System.out.println("Cleaning: " + stables + ", " +leopard);
+                System.out.println("Cleaning: " + stables + ", " + leopard);
             }
         }
     }
