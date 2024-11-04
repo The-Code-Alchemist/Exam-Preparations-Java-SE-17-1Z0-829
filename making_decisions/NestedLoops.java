@@ -29,6 +29,6 @@ public class NestedLoops {
             } while (hungryHippopotamus > 5);
             hungryHippopotamus--;
             System.out.print(hungryHippopotamus + ", ");
-        } // 3, 0
+        } // 3, 0,
     }
 }
