@@ -16,6 +16,11 @@ public class FindInMatrix {
                     positionX = i;
                     positionY = j;
                     break PARENT_LOOP; // terminates the entire for loop at the first match
+                    /**
+                     * if break is used instead of the previous line, would only exit if the condition was met
+                     * The program will now only exit the inner loop when the condition was met
+                     */
+//                    break;
                 }
             }
         }
