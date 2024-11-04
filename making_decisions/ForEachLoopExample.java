@@ -18,6 +18,7 @@ public class ForEachLoopExample {
         // This method prints a String array using a for-each loop, also known as the enhanced for loop
         printNameEnhacedForLoop(names);
 
+        // Since List java.lang.List implements implements java.lang.Iterable, a for-each loop can be used on List
         // a new line for each element
         printNames(List.of(names));
     }
