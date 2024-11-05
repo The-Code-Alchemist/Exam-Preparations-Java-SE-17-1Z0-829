@@ -5,6 +5,11 @@
  * 1. If both operands are numeric, + means numeric addition
  * 2. If either operand is a String, + means concaten
  * 3. The expression is evaluated from left to right
+ *
+ * Strings are immutable, they cannot be changed.
+ * Whenever a String variable concatenates multiple Strings, a new String is created.
+ * The previous String still exists on the heap, and since there's no variable pointing to it,
+ * this  String will be garbage colected.
  */
 package coreAPIs;
 public class StringConcatenationExamples {
