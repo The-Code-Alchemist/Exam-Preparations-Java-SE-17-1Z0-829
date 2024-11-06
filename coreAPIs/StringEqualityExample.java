@@ -16,6 +16,7 @@ public class StringEqualityExample {
         // takes an Object as a parameter and does a character by character comparison
         System.out.println("abc".equals("ABC"));                        // false
         System.out.println("ABC".equals("ABC"));                        // true
+        System.out.println("ABC" == "ABC");                             // true
         // takes a String as a parameterdoes a character by character comparison, but ignores its case
         System.out.println("abc".equalsIgnoreCase("ABC"));   // true
 
