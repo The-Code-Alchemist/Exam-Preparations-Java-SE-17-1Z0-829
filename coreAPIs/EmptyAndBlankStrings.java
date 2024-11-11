@@ -1,6 +1,6 @@
 /**
  * @author The Code Alchemist
- * from Chapter 4: Core APIs, pages 167
+ * from Chapter 4: Core APIs, page 167
  */
 package coreAPIs;
 public class EmptyAndBlankStrings {
