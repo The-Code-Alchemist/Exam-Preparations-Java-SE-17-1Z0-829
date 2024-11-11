@@ -71,7 +71,7 @@ public class StringMethodsIllustrated {
 
         System.out.println(name.substring(3, 3));               // empty substring
 //        System.out.println(name.substring(3, 2));             // java.lang.StringIndexOutOfBoundsException: begin 3, end 2, length 7       also terminates the program
-//        System.out.println(name.substring(3, 8));             // S // java.lang.StringIndexOutOfBoundsException: begin 3, end 8, length 7       also terminates the program
+//        System.out.println(name.substring(3, 8));             // java.lang.StringIndexOutOfBoundsException: begin 3, end 8, length 7       also terminates the program
     }
 
     private static void adjustCase() {
