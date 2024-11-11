@@ -13,7 +13,7 @@ public class StringWhitespaceRemoval {
         // \t is a single character
         System.out.println("\t  a b c\n".strip());              // a b c
 
-        String text = " abc\t ";                                // \t is a single character
+        String text = " abc\t ";                                // \t is a single character, a tab
         System.out.println(text.trim().length());               // 3
 
         // the strip() method does everything the trim() method does, but it supports unicode
