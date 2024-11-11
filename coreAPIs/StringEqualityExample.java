@@ -1,6 +1,6 @@
 /**
  * @author The Code Alchemist
- * from Chapter 4: Core APIs, pages 162 - 163
+ * from Chapter 4: Core APIs, pages 162 - 163, 166
  * Methods worth looking at in Java
  * equals(Object)
  * equalsIgnoreCase(String)
