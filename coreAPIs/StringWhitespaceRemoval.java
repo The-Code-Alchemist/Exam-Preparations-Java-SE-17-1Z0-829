@@ -24,5 +24,20 @@ public class StringWhitespaceRemoval {
 
         // removes whitespace from the end of the String, leaves the whitespace at the beginning
         System.out.println(text.stripTrailing().length());      // 4
+
+        var block = """
+                  a
+                   b
+                  c""";             // text block
+        System.out.println(block.length());                         // 6
+        System.out.println(block.indent(1).length());            // 10
+
+        var concatenation = " a\n"
+                + "  b\n"
+                + " c";             // String concatenation
+        System.out.println(concatenation.length());                 // 9
+        System.out.println(concatenation.indent(-1).length());   // 7
+        System.out.println(concatenation.indent(-4).length());   // 6
+        System.out.println(concatenation.stripIndent().length());   // 6
     }
 }
