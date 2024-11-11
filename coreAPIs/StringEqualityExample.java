@@ -50,5 +50,30 @@ public class StringEqualityExample {
         System.out.println("abcabc".replace("a", "A"));                 // AbcAbc CharSequence CAN be left blank
         System.out.println("abcabc".replace("", "3"));                  // AbcAbc CharSequence CAN be left blank
         System.out.println("abcabc".replace("", "3").toUpperCase());    // AbcAbc CharSequence CAN ben left blank
+
+        var x = "Hello World";
+        var y = "Hello World";
+        System.out.println(x == y);     // true references are to the exact same object reference
+        var z = " Hello World".trim();
+        System.out.println(x == z);     // false, they're different at compile-time, but equal in runtime
+
+        var singleString = "hello world";
+        var concat = "hello ";
+        concat += "world";
+        System.out.println(singleString == concat); // false, concat creates a new String
+
+        var nameExample = "Hello World";
+        var anotherNameExample = new String("Hello World").intern();
+        System.out.println(nameExample == anotherNameExample);
+
+        System.out.println("Fluffy" == new String("Fluffy").intern());  // true
+
+        var first = "rat" + 1;                                          // gets placed in the String pool as "rat1"
+        var second = "r" + "a" + "t" + "1";                             // reference points to the same "rat1" String in the String pool
+        var third = "r" + "a" + "t" + new String(String.valueOf(1));  // a new String created by the constructor which does not point to a reference
+        System.out.println(first == second);                            // true, they share the same String pool reference (at compile time)
+        System.out.println(first == second.intern());                   // true, reference is the same
+        System.out.println(first == third);                             // false, the new String creates a new reference
+        System.out.println(first == third.intern());                    // true, point to the same String "rat1"
     }
 }
