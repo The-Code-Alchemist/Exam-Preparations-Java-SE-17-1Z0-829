@@ -1,6 +1,6 @@
 /**
  * @author The Code Alchemist
- * from Chapter 4: Core APIs, pages 170 - 175
+ * from Chapter 4: Core APIs, pages 170 - 171
  * A small program can create a lot of java.lang.String objects very quickly
  * The java.lang.StringBuilder object can be reused, which is less strenuous on the heap
  */
