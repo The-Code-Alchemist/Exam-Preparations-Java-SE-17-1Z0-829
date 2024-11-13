@@ -1,6 +1,6 @@
 /**
  * @author The Code Alchemist
- * from Chapter 4: Core APIs, pages 173 - 174
+ * from Chapter 4: Core APIs, pages 173 - 175
  *
  * The insert method adds characters to the StringBuilder at the requested index and returns a reference to the current
  * StringBuilder

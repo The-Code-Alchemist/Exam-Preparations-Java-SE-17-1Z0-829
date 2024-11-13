@@ -1,6 +1,6 @@
 /**
  * @author The Code Alchemist
- * from Chapter 4: Core APIs, pages 172 - 175
+ * from Chapter 4: Core APIs, page 172
  * Important StringBuilder methods for the exam
  */
 package coreAPIs;
