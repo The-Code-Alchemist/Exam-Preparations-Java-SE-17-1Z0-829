@@ -32,7 +32,7 @@ public class StringEqualityExample {
         System.out.print(a == b);               // false, reference to different object despite identical contents
         System.out.println(a.equals(b));        // true, contents are compared, references do not matter here
 
-        // takes a String as a parameterdoes a character by character comparison, but ignores its case
+        // takes a String as a parameter. Does a character by character comparison, but ignores its case
         System.out.println("abc".equalsIgnoreCase("ABC"));   // true
 
         // takes a String as a parameter
