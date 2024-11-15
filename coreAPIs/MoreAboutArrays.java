@@ -9,21 +9,14 @@ import java.util.Arrays;
 
 public class MoreAboutArrays {
     public static void main(String[] args) {
-        // You can comment out these methods to see what each of them does
-        executeNumbersArray();
-        showArrayLengthAndMembers();
-        showAliasAndReference();
-
         // Multiple String arrays of multiple dimensions can be defined in a single line as demonstrated
         String one[], two[][], three[][][];
 
-        // Arrays
-        String[] strings = { "stringValue" };
-        Object[] objects = strings;                     // No casting needed, Object is a broader type than String
-        String[] againStrings = (String[]) objects;     // Casting required for more specific types
-//      againStrings[0] = new StringBuilder();          // Will not compile as it is
-        againStrings[0] = String.valueOf(new StringBuilder());
-        againStrings[0] = new String();
+        // You can comment out these methods to see what each of them does
+        showAliasAndReference();
+        castArray();
+        showArrayLengthAndMembers();
+        executeNumbersArray();
     }
 
     private static void showAliasAndReference() {
@@ -37,6 +30,16 @@ public class MoreAboutArrays {
         }
         System.out.println(Arrays.toString(bugs));      // Print an array clearly: [cricket, beetle, ladybug]
         System.out.println(Arrays.toString(alias));     // Print an array clearly: [cricket, beetle, ladybug]
+    }
+
+    private static void castArray() {
+        // Arrays
+        String[] strings = { "stringValue" };
+        Object[] objects = strings;                     // No casting needed, Object is a broader type than String
+        String[] againStrings = (String[]) objects;     // Casting required for more specific types
+//      againStrings[0] = new StringBuilder();  // Will not compile as it is, String arrays only allow String objects
+        againStrings[0] = String.valueOf(new StringBuilder());
+        againStrings[0] = new String();
     }
 
     private static void showArrayLengthAndMembers() {
