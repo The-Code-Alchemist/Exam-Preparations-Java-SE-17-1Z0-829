@@ -27,9 +27,9 @@ public class StringConcatenationExamples {
         System.out.println(1 + 2 + three + four);   // 1 + 2 + 3 = 6 which is concatenated with the String 4: 64
 
         // String s is compounded by concatenating "1", "2" and "3"
-        var s = "1";
-        s += "2";
-        s += 3;
+        var s = "1";    // String with value "1" created
+        s += "2";       // new String with value "12" created
+        s += 3;         // new String with value "123" created
         System.out.println(s);                  // 123
     }
 }
