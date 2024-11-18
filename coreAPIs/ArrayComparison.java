@@ -9,7 +9,7 @@
  *
  * The mismatch() method allows two arrays to be compared
  * If the arrays are equal, a negative number is returned
- *
+ * Otherwise, the first index they differ is returned
  */
 package coreAPIs;
 
@@ -25,7 +25,7 @@ public class ArrayComparison {
         System.out.println(Arrays.compare(new String [] {"a"}, new String[] {null}));   // 1
 //        System.out.println(Arrays.compare(new int[] {1}, new String[] {"a"}));        // will not compile, different types
 
-        System.out.println(Arrays.mismatch(new int[] {1}, new int[] {1}));              // -1
+        System.out.println(Arrays.mismatch(new int[] {1}, new int[] {1}));              // -1, the arrays are equal
         System.out.println(Arrays.mismatch(new String [] {"a"}, new String [] {"A"}));  // 0
         System.out.println(Arrays.mismatch(new int[] {1}, new int[] {1, 2}));           // 1
     }
