@@ -1,6 +1,6 @@
 /**
  * @author The Code Alchemist
- * Chapters 4: Core APIs, 203, 204, 205
+ * Chapters 4: Core APIs, pages 203 - 205
  */
 package coreAPIs;
 

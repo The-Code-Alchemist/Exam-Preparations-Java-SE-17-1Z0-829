@@ -1,6 +1,6 @@
 /**
  * @author The Code Alchemist
- * Chapters 4: Core APIs, 206, 207
+ * Chapters 4: Core APIs, pages 206 - 207
  * Daylight saving examples
  */
 package coreAPIs;

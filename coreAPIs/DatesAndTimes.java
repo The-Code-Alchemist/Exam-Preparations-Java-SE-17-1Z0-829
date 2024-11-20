@@ -1,6 +1,6 @@
 /**
  * @author The Code Alchemist
- * Chapters 4: Core APIs, pages 192, 193, 194, 195, 196, 197
+ * Chapters 4: Core APIs, pages 192 - 197
  * Dates and Times
  */
 package coreAPIs;
@@ -59,7 +59,7 @@ public class DatesAndTimes {
         var zoned3 = ZonedDateTime.of(dateTime1, zone);
         System.out.println(zoned3);     // date time is passed
 
-        // Invalid day throws an Exception
+        // Invalid day throws a DateTimeException
         var d = LocalDate.of(2022, Month.JANUARY, 32);
         System.out.println(d);
     }

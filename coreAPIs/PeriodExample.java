@@ -1,6 +1,6 @@
 /**
  * @author The Code Alchemist
- * Chapters 4: Core APIs, 200, 201
+ * Chapters 4: Core APIs, pages 200 - 201
  * Periods based on Dates and Times
  */
 package coreAPIs;

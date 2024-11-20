@@ -1,6 +1,6 @@
 /**
  * @author The Code Alchemist
- * Chapters 4: Core APIs, 197, 198
+ * Chapters 4: Core APIs, pages 197 - 198
  * Manipulating Dates and Times
  */
 package coreAPIs;
