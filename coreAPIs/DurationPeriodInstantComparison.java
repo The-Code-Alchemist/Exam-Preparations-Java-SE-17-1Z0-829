@@ -43,10 +43,10 @@ public class DurationPeriodInstantComparison {
     //  System.out.println("date + days: " +date.plus(days));
 
         var now = Instant.now();
-        System.out.println("" +now);
+        System.out.println("now: " + now);
         // do something time-consuming
         var later = Instant.now();
-        System.out.println("" + later);
+        System.out.println("later: " + later);
 
         duration = Duration.between(now, later);
         System.out.println("duration to millis: " + duration.toMillis());   // in ms
