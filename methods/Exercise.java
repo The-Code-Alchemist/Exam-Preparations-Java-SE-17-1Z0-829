@@ -1,6 +1,6 @@
 /**
  * @author The Code Alchemist
- * Chapters 5: Methods, page 222 - 226
+ * Chapters 5: Methods, pages 222 - 226
  * Demonstrating some valid and invalid method declaration examples
  * Invalid method declarations have been commented out with explanations at the end of the line
  */
