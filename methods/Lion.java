@@ -1,6 +1,6 @@
 /**
  * @author The Code Alchemist
- * Chapter 5: Methods, pages 228 - 229
+ * Chapter 5: Methods, pages 228 - 230
  * declaring local and instance variables
  */
 package methods;
@@ -28,6 +28,9 @@ public class Lion {
 
         final var giraffe = new Animal();
         final int[] friends = new int[5];
+
+        giraffe.setName("George");                  // Although the object is final, fields can be changed e.g. its name
+        friends[2] = 2;                             // the third element of the array is assigned the value of 2
 
         /**
          * variables marked final cannot be reassigned

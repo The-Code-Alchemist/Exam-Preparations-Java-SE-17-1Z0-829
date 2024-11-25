@@ -5,4 +5,6 @@
  */
 package methods;
 public class Animal {
+    public void setName(String name) {
+    }
 }
