@@ -20,4 +20,20 @@ public class Lion {
         }
         return snack;
     }
+
+    public void zooAnimalCheckup(boolean isWeekend) {
+        final int rest;                             // only one modifier can be applied to a local variable - final
+        if(isWeekend) rest = 5; else rest = 20;     // rest can be assigned a value conditionally, even when marked final
+        System.out.println(rest);
+
+        final var giraffe = new Animal();
+        final int[] friends = new int[5];
+
+        /**
+         * variables marked final cannot be reassigned
+         */
+//        rest = 10;                      // will not compile
+//        giraffe = new Animal();         // will not compile
+//        friends = null;                 // will not compile
+    }
 }
