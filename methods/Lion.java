@@ -1,11 +1,11 @@
 /**
  * @author The Code Alchemist
- * from Chapter 5: Methods, page 228, 229
+ * Chapter 5: Methods, pages 228 - 229
  * declaring local and instance variables
  */
 package methods;
 public class Lion {
-    int hunger  = 4;
+    int hunger  = 4;                    // instance variable created every object of the Lion class
 
     public int feedZooAnimals() {
 
