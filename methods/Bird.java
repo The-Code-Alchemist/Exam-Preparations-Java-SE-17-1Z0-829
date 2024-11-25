@@ -5,6 +5,12 @@
 package methods;
 public class Bird {
     public void fly1() {}       // Valid method declaration without parameters
-//    public void fly2()        // This method will not compile without body which is without curly braces {}
+
+    /**
+     * This method will not compile without body which is without curly braces {}
+     * The next line would work in an abstract class, though
+     * public abstract void fly2();
+     */
+//    public void fly2()
     public void fly3(int a) {}  // Valid method declaration with one int parameter
 }
