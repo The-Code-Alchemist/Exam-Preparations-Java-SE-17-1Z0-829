@@ -1,6 +1,6 @@
 /**
  * @author The Code Alchemist
- * from Chapter 5: Methods, page 232, 234
+ * from Chapter 5: Methods, pages 232, 234
  * final and vararg example
  */
 package methods;
