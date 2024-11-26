@@ -1,6 +1,6 @@
 /**
  * @author The Code Alchemist
- * from Chapter 5: Methods, page 227, 228
+ * from Chapter 5: Methods, pages 227 - 228
  */
 package methods;
 public class MethodExamples {
