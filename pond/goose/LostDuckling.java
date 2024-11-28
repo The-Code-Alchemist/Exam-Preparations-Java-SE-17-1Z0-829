@@ -1,6 +1,7 @@
 /**
  * @author The Code Alchemist
- * from Chapter 5: Methods, pages 242
+ * from Chapter 5: Methods, page 242
+ * Example of a public access modifier
  */
 package pond.goose;
 import pond.duck.DuckTeacher;
