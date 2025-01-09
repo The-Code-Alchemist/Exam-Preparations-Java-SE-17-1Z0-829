@@ -13,7 +13,7 @@ import java.util.List;
 public class ForEachLoopExample {
     public static void main(String[] args) {
         String[] names = {"The"," ","Code", " ", "Alchemist", " ", "preparing for the 1Z0-829 exam: Java SE 17", "\n"};
-        // This method prints a String array using a regular fopr loop
+        // This method prints a String array using a regular for loop
         printNameRegularForLoop(names);
         // This method prints a String array using a for-each loop, also known as the enhanced for loop
         printNameEnhacedForLoop(names);
