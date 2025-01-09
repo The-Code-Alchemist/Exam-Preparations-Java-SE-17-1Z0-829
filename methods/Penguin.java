@@ -4,7 +4,9 @@
  * static members belong to the class rather than any particular instance of the class
  *
  * static can also be applied to importing the static members of a class i.e. fields and methods
- * Think of a static variable as being a member
+ * Think of a static variable as being a member of the single class object that exists independently of any instances of that class
+ *
+ * Anytime a static variable is updated, all istances of the class accessing that variable will be updated
  *
  * instance members can access static members, but static members cannot access instance members
  */
