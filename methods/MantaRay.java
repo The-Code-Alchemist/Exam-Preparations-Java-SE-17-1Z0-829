@@ -20,6 +20,11 @@ public class MantaRay {
     public static void main(String[] args) {
         first();
         second();
-//        third();  // instance method can't be called from a static method
+//        third();  // Instance method can't be called from a static method
+
+        var ray = new MantaRay();
+
+        // Instance method can be called through an instance of the class
+        ray.third();
     }
 }
