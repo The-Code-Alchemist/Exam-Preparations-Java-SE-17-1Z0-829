@@ -12,7 +12,7 @@ public class Counter {
         count++;
     }
     public static void main(String[] args) {
-        System.out.println(count);  // 0 - no instance crated yet
+        System.out.println(count);  // 0 - no instance created yet
 
         // count incremented by 1 each time the constructor is called
         Counter counter1 = new Counter();
