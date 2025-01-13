@@ -1,7 +1,8 @@
 /**
  * @author The Code Alchemist
  * Chapter 5: Methods, page 253
- * pass-by-value example
+ * Java is a "pass-by-value" language: A copy of a variable is made and the method receives that copy.
+ * Assignments made in the method do not affect the caller.
  */
 package methods;
 public class PassByValueExample {
@@ -12,7 +13,7 @@ public class PassByValueExample {
     }
 
     private static void newNumber(int num) {
-        num = 8;
+        num = 8;                    // Same name as on line 10, a coincidence. The exam may try to  distract you like this
         System.out.println(num);
     }
 }
