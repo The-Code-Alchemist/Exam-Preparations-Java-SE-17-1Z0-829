@@ -23,5 +23,9 @@ public class AutoboxingUnboxingExample {
         // The sum of an Integer Object and a primitive int value added and stored as an Integer Object
         Integer anotherIntegerObject = Integer.valueOf(integerObject + primitiveInteger);
         System.out.println(anotherIntegerObject);                       // 10
+
+        Integer e = Integer.valueOf(9);
+        long ears = e;                                                  // e is unboxed to an int and then assigned to ears
+        System.out.println(ears);
     }
 }
