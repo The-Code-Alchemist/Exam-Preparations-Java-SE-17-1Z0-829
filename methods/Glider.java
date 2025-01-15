@@ -1,9 +1,9 @@
 /**
  * @author The Code Alchemist
- * Chapter 5: Methods, page 262, 263
+ * Chapter 5: Methods, pages 262 - 263
  * overloading reference types
  */
-package zoo;
+package methods;
 
 public class Glider {
     public static String glide(String s) {
@@ -19,8 +19,8 @@ public class Glider {
         return "4";
     }
     public static void main(String[] args) {
-        System.out.print(glide("a"));
-        System.out.print(glide("a", "b"));
-        System.out.print(glide("a", "b", "c"));
+        System.out.print(glide("a"));            // exact math on line 9
+        System.out.print(glide("a", "b"));    // exact math on line 18
+        System.out.print(glide("a", "b", "c")); // exact math on line 12
     }
 }
