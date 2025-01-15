@@ -21,6 +21,6 @@ public class Glider {
     public static void main(String[] args) {
         System.out.print(glide("a"));            // exact math on line 9
         System.out.print(glide("a", "b"));    // exact math on line 18
-        System.out.print(glide("a", "b", "c")); // exact math on line 12
+        System.out.print(glide("a", "b", "c")); // best math on line 12
     }
 }
