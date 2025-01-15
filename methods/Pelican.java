@@ -1,7 +1,7 @@
 /**
  * @author The Code Alchemist
  * Chapter 5: Methods, page 259 - 260
- * Java picks the most specific version of a method that it can
+ * Overloading reference types: Java picks the most specific version of a method that it can
  */
 package methods;
 public class Pelican {
