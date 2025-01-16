@@ -1,6 +1,6 @@
 /**
  * @author The Code Alchemist
- * Chapter 6: Class Design, page 277
+ * Chapter 6: Class Design, page 278
  * Inheritance gone wrong example
  *
  * Field size is not accessible here, because class_design.BigCat is not inherited
