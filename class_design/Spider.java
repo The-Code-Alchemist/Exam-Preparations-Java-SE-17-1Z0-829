@@ -1,17 +1,18 @@
 /**
  * @author The Code Alchemist
- * Chapter 6: Class Design, page 278
- * Inheritance gone wrong example
+ * Chapter 6: Class Design, page 278 - 280
  *
- * Field size is not accessible here, because class_design.BigCat is not inherited
- *
+ * This class inherits java.lang.Object ecplicitly
  * Every class implicitly extends java.lang.Object
- * This class explicitly extends java.lang.Object
+ *
+ * java.lang.Object is the only class without a parent class
+ *
+ * Field size (line 16) is not accessible here, because class_design.BigCat is not inherited
  */
 package class_design;
 
 public class Spider extends Object {
     public void printDetails() {
-//        System.out.println(size);     // not accessible here, Spider does not extend BigCat
+//        System.out.println(size);
     }
 }
