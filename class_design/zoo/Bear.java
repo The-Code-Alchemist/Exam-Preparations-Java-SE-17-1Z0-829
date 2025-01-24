@@ -8,7 +8,7 @@
  */
 package class_design.zoo;
 public class Bear {
-    // inner classes can  will be discussed later in the next chapter: Beyond Classes
+    // inner classes can be private which will be discussed later in the next chapter: Beyond Classes
     private class BearCub {}
 }
 class Bird {}
