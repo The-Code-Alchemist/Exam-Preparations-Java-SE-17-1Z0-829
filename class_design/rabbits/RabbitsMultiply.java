@@ -3,7 +3,7 @@
  * Chapter 6: Class Design, page 288, 289
  * default constructor example
  */
-package zoo.rabbits;
+package class_design.rabbits;
 public class RabbitsMultiply {
     public static void main(String[] args) {
         var r1 = new Rabbit1();         // calls the default constructor
