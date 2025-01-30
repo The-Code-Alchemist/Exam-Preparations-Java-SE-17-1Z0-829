@@ -1,6 +1,6 @@
 /**
  * @author The Code Alchemist
- * Chapter 6: Class Design, page 281
+ * Chapter 6: Class Design, pages 281, 292
  * Initializing Objects
  */
 package class_design;
@@ -14,7 +14,7 @@ public class Animal {
     protected String name;
 
     public Animal(int age, String name) {
-        super();
+        super();            // Refers to the constructor in java.lang.Object
         this.age = age;
         this.name = name;
     }
