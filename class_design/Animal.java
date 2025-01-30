@@ -1,9 +1,9 @@
 /**
  * @author The Code Alchemist
- * Chapter 6: Class Design, page 281, 293, 294, 297
+ * Chapter 6: Class Design, page 281
  * Initializing Objects
  */
-package zoo;
+package class_design;
 public class Animal {
 
     static {
