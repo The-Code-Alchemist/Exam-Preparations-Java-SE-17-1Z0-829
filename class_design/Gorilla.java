@@ -1,8 +1,8 @@
 /**
  * @author The Code Alchemist
- * Chapters 5 and 6: Methods and Class Design, page 247, 293, 294
+ * Chapter 6: Class Design, pages 293 - 294
  */
-package zoo;
+package class_design;
 public class Gorilla extends Animal {
     public Gorilla(int age) {
         super(age, "Gorilla");     // calls the first Animal constructor
