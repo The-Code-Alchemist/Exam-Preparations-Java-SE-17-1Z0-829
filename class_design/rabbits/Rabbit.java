@@ -7,6 +7,6 @@ package class_design.rabbits;
 public class Rabbit {
     Rabbit() {} // no-args constructor inserted by the Java compiler if not user-defined
     public static void main(String[] args) {
-        new Rabbit(); // creates a new rabbit by calling the user-defined constructor
+        new Rabbit(); // creates a new rabbit by calling the user-defined default constructor on line 8
     }
 }
