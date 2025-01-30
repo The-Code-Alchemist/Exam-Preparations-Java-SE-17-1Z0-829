@@ -9,6 +9,6 @@ public class RabbitsMultiply {
         var r1 = new Rabbit1();         // calls the default constructor
         var r2 = new Rabbit2();         // calls user-defined default constructor
         var r3 = new Rabbit3(true);  // calls user-defined constructor
-        var r4 = new Rabbit4();         // will not compile when declared private. Package-private will work, though.
+        var r4 = new Rabbit4();         // will not compile when Rabbit4's constructor is declared private
     }
 }
