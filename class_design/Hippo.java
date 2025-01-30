@@ -1,9 +1,9 @@
 /**
  * @author The Code Alchemist
- * Chapter 6: Class Design, page 297
+ * Chapter 6: Class Design, pages 297 - 298
  * Initializing Objects
  */
-package zoo;
+package class_design;
 public class Hippo extends Animal {
     public Hippo(int age) {
         super(age);
