@@ -3,7 +3,7 @@
  * Chapter 6: Class Design, page 288, 289
  * default constructor example
  */
-package zoo.rabbits;
+package class_design.rabbits;
 public class Rabbit {
     Rabbit() {} // no-args constructor inserted by the Java compiler if not user-defined
     public static void main(String[] args) {
