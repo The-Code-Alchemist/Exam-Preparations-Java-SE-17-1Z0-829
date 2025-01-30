@@ -1,6 +1,6 @@
 /**
  * @author The Code Alchemist
- * Chapter 6: Class Design, page 295
+ * Chapter 6: Class Design, pages 295 - 296
  * Constructor with an int parameter
  *
  * Since this class has an explicit constructor with an int parameter,
