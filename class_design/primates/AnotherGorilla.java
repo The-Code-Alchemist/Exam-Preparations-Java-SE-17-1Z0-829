@@ -3,7 +3,7 @@
  * Chapter 5: Methods, page 256
  * casting and autoboxing
  */
-package zoo;
+package class_design.primates;
 public class AnotherGorilla {
     public void rest(Long x) {
         System.out.println("long");

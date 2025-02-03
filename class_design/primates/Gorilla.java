@@ -2,7 +2,10 @@
  * @author The Code Alchemist
  * Chapter 6: Class Design, pages 293 - 294
  */
-package class_design;
+package class_design.primates;
+
+import class_design.Animal;     // super class imported
+
 public class Gorilla extends Animal {
     public Gorilla(int age) {
         super(age, "Gorilla");     // calls the first Animal constructor
