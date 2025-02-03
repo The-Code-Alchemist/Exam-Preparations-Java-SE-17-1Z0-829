@@ -6,7 +6,10 @@
  * Since this class has an explicit constructor with an int parameter,
  * it no longer has a default constructor generated at compile-time
  */
-package class_design;
+package class_design.elephants;
+
+import class_design.Mammal;
+
 public class Elephant extends Mammal {
     public Elephant() {
         // explicit call to the parent constructor
