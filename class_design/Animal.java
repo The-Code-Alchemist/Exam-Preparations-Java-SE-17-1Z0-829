@@ -1,6 +1,6 @@
 /**
  * @author The Code Alchemist
- * Chapter 6: Class Design, pages 281, 292 - 293
+ * Chapter 6: Class Design, pages 281, 292 - 293, 297 - 298
  * Initializing Objects
  */
 package class_design;
