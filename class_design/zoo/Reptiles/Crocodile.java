@@ -5,7 +5,7 @@
  *
  * A variable can be defined in both a parent class and a child class
  */
-package class_design.zoo;
+package class_design.zoo.Reptiles;
 
 public class Crocodile extends Reptile {
     protected int speed = 20;   // without this field, line 16 shows 10
