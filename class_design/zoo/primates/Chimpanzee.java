@@ -7,7 +7,7 @@
  * 2. Constructors are executed from the bottom up, since the call to every constructor is a call to another constructor
  * 3. The flow ends up with the parent constructor executed before the child constructor
  */
-package class_design.primates;
+package class_design.zoo.primates;
 public class Chimpanzee extends Ape {
     public Chimpanzee() {
         super(2);

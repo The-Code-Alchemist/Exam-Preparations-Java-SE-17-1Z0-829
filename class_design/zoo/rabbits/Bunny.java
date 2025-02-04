@@ -9,7 +9,7 @@
  *
  * A constructor has no return type of any kind, not even void.
  */
-package class_design.rabbits;
+package class_design.zoo.rabbits;
 public class Bunny {
     public Bunny() {
         System.out.println("hop");

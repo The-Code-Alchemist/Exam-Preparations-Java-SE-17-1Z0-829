@@ -2,7 +2,7 @@
  * @author The Code Alchemist
  * Chapter 6: Class Design, pages 293 - 294
  */
-package class_design.primates;
+package class_design.zoo.primates;
 
 import class_design.Animal;     // super class imported
 
