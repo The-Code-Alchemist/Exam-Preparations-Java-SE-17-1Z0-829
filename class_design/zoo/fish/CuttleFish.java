@@ -9,7 +9,7 @@
  *                                                              1
  * 4. Constructor creates a CuttleFish object, printing         Constructor
  */
-package class_design.zoo;
+package class_design.zoo.fish;
 public class CuttleFish {
     private static String name = "swimmy";
     { System.out.println(name); }
