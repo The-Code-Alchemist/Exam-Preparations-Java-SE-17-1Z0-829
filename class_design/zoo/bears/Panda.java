@@ -2,7 +2,7 @@
  * @author The Code Alchemist
  * Chapter 6: Class Design, pages 311 - 312
  * Hiding static methods: the eat method in bear is hidden by the eat method in Panda
- * N.B the eat mehod is NOY overridden!
+ * N.B the eat() mehod is NOT overridden!
  */
 package class_design.zoo.bears;
 public class Panda extends Bear {
