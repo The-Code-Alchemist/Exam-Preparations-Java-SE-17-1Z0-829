@@ -4,7 +4,6 @@
  * Interface methods are implicitly public, see line 8
  */
 package beyond_classses;
-
 public interface HasWhiskers {
     public int getNumberOfWhiskers();
 }
