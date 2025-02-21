@@ -1,6 +1,6 @@
 /**
  * @author The Code Alchemist
- * Chapter 7: Beyond Classes, page 354 - 355
+ * Chapter 7: Beyond Classes, pages 354 - 355
  * default method example
  */
 package beyond_classses;
