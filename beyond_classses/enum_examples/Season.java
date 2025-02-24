@@ -20,5 +20,9 @@ public enum Season {
             // prints the value of each season and their corresponding int value
             System.out.println(season.name() + " " + season.ordinal());
         }
+
+        // Pass user input with the valueOf() method
+        Season summer = Season.valueOf("SUMMER");
+        Season invalidSummer = Season.valueOf("summer");    // Case-sensitivity not matched. Throws an IllegalArgumentException
     }
 }
