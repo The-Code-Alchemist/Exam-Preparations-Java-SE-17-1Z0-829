@@ -1,6 +1,6 @@
 /**
  * @author The Code Alchemist
- * Chapter 7: Beyond Classes, pages 361 - 362
+ * Chapter 7: Beyond Classes, pages 361 - 363
  * Enums are used for a finite set of values whose types are known at compile time
  *
  * enum values are comma separated with an optional semicolon ; at the end for simple enums
