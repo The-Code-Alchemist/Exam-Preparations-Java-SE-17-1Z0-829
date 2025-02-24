@@ -1,13 +1,15 @@
 /**
- *  Enums are used for a finite set of values whose types are known at compile time
+comment update * @author The Code Alchemist
+ * Chapter 7: Beyond Classes, pages 364 - 365
+ * Enums are used for a finite set of values whose types are known at compile time
  *
- *  enum values are comma separated with an optional semicolon ; at the end for simple enums
- *  A simple enum is one that only contains a list of values
+ * enum values are comma separated with an optional semicolon ; at the end for simple enums
+ * A simple enum is one that only contains a list of values
  *
- *  A complex enum, on the other hand, has additional elements
+ * A complex enum, on the other hand, has additional elements
  *
- *  All enum constructor are implicitly private with the modifier being optional/redundant
- *  An enum constructor will not compile with the public or protected modifiers
+ * All enum constructor are implicitly private with the modifier being optional/redundant
+ * An enum constructor will not compile with the public or protected modifiers
  */
 package beyond_classses.enum_examples;
 public enum SeasonWithConstructor {
