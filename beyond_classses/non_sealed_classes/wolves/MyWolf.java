@@ -4,5 +4,5 @@
  * This class does not have the modifier sealed, non-sealed or final. This is allowed with a non-sealed parent class.
  * MyWolf is an indirect subclass of Wolf
  */
-package beyond_classses.non_sealed_classes;
+package beyond_classses.non_sealed_classes.wolves;
 public class MyWolf extends Timber {}
