@@ -1,6 +1,6 @@
 /**
  * @author The Code Alchemist
- * Chapter 7: Beyond Classes, pages 368
+ * Chapter 7: Beyond Classes, page 369
  * A final class can extend a parent class, but cannot itself be extended any other class.
  * The final modifier prevents this child class any further
  */
