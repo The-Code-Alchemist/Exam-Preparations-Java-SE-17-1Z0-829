@@ -8,7 +8,7 @@
 package beyond_classses.record_examples;
 public class Poacher {
     public void badActor() {
-        var mother = new Crane(5, "Cathy");
+        var mother = new CranePOJO(5, "Cathy");
      // mother.numberEggs = -1;
         System.out.println(mother.getNumberEggs());
 
