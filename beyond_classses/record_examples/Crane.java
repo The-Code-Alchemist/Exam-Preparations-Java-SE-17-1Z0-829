@@ -15,7 +15,7 @@ public record Crane(int numberEggs, String name) implements Bird {
     // The long constructor automatically inserted by the Java compiler
     public Crane(int numberEggs, String name) {
         // Since each field is fina
-        if (numberEggs < 0 ) throw new IllegalArgumentException();
+        if (numberEggs < 0) throw new IllegalArgumentException();
         this.numberEggs = numberEggs;
         this.name = name;
     }
