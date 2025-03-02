@@ -1,6 +1,6 @@
 /**
  * @author The Code Alchemist
- * Chapter 7: Beyond Classes, pages 383
+ * Chapter 7: Beyond Classes, pages 383 - 384
  * Declaring an inner class on line 18
  * An inner class can access private members of a class.
  * The private String greeting is accessible by the inner class Room, because they are members of the same class Home.
@@ -19,7 +19,7 @@ public class Home {
         public void enter() {
              for (int i = 0; i < repeat; i++) greet(greeting);  // greeting defined in Home, accessible in Room as well
         }
-
+        // As of Java 17, static methods are allowed in inner classes. This is since the introduction of Records in Java 16
         private static void greet(String greeting) {
             System.out.println(greeting);
         }
@@ -33,5 +33,13 @@ public class Home {
     public static void main(String[] args) {
         var home = new Home();          // Create the outer class instance
         home.enterRoom();
+
+        // We need an instance of home to create a room, we can't just call new Room() inside the static main() method
+        // Java wouldn't know which instance of Home it is associated with
+        Room room = home.new Room();    // Create the inner class instance
+        room.enter();
+
+        // lines 39 and 40 can be rewritten in one line
+        new Home().new Room().enter();  // Outer class and inner class are chained upon which the enter() method is called
     }
 }
