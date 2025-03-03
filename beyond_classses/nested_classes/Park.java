@@ -12,6 +12,6 @@ public class Park {
     }
     public static void main(String[] args) {
         var ride = new Ride();
-        System.out.println(ride.price);     // private field price can be accessd
+        System.out.println(ride.price);     // private field price can be accessed
     }
 }
