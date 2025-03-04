@@ -23,10 +23,17 @@ public class Lemur extends Primate implements HasTail {
 
         HasTail hasTail = lemur;
         System.out.println(hasTail.isTailStriped());
-        // System.out.println(hasTail.age);                 //
 
         Primate primate = lemur;
         System.out.println(primate.hasHair());
-        // System.out.println(primate.isTailStriped());     //
+
+        /*
+          Since all objects inherit from java.lang.Object, they can all be reassigned to it.
+          Even though the Lemur object has been assigned to a reference with a different type,
+          the object itself has not changed and still exist as a Lemur in memory.
+          What HAS changed, is the ability to access methods within the Lemur class with the lemurAsObject reference.
+          Without an explicit case back to Lemur, we no longer have access to the Lemur properties ogf the object
+         */
+        Object lemurAsObject = lemur;
     }
 }
