@@ -4,7 +4,7 @@
  *
  * The property of an object can take many different forms.
  * A cast is not required if the object is being reassigned to a supertype or interface.
- * Only one object, Lemur is created.
+ * Only one object, Lemur is created. The same object exists in memory, regardless of which reference is pointing to it.
  *
  * Polymorphism enables an instance of Lemur to be reassigned or passed to a method using of it supertypes,
  * such asPrimate or HasTail
