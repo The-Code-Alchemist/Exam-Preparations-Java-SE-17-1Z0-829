@@ -2,7 +2,7 @@
  * @author The Code Alchemist
  * Chapter 8: Lambdas and Functional Interfaces, pages 420 - 422
  */
-package lambdas_and_functional_interfaces;
+package lambdas_and_functional_interfaces.introduction;
 
 import java.util.ArrayList;
 import java.util.List;

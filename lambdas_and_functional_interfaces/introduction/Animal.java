@@ -4,5 +4,5 @@
  *
  * This record has 3 fields
  */
-package lambdas_and_functional_interfaces;
+package lambdas_and_functional_interfaces.introduction;
 public record Animal(String species, boolean canHop, boolean canSwim) {}

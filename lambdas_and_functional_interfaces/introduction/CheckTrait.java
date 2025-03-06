@@ -3,7 +3,7 @@
  * Chapter 8: Lambdas and Functional Interfaces, pages 420 - 422
  * This interface has one abstract method. Annotation added for clarification
  */
-package lambdas_and_functional_interfaces;
+package lambdas_and_functional_interfaces.introduction;
 @FunctionalInterface
 public interface CheckTrait {
     boolean test(Animal a);
