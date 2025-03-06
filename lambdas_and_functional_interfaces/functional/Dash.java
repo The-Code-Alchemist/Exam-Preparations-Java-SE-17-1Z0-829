@@ -5,6 +5,6 @@
  * If it had its own method, the interface could no longer be functional.
  * Annotion added for additional clarity.
  */
-package lambdas_and_functional_interfaces.functional.sprinting_tiger;
+package lambdas_and_functional_interfaces.functional;
 @FunctionalInterface
 public interface Dash extends Sprint  {}

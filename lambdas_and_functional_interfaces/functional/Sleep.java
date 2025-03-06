@@ -5,7 +5,7 @@
  * Neither method meets the criteria to be abstract.
  * Method that are private or default are NEVER abstract!
  */
-package lambdas_and_functional_interfaces.functional.sprinting_tiger;
+package lambdas_and_functional_interfaces.functional;
 public interface Sleep {
     private void snore() {}
     default int getZzz() { return 1; }

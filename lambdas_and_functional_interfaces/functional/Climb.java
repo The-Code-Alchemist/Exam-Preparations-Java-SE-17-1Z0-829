@@ -3,7 +3,7 @@
  * Chapter 8: Lambdas and Functional Interfaces, page 427
  * This is a functional interface, because it
  */
-package lambdas_and_functional_interfaces.functional.sprinting_tiger;
+package lambdas_and_functional_interfaces.functional;
 @FunctionalInterface
 public interface Climb {
     void reach();
